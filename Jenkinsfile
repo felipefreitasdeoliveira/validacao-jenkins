@@ -1,8 +1,5 @@
-node {
-    node(corp-apis-dev-hlg) {
-        stage("Deploy") {
-            sh "hostname"
-            cleanWs()
-        }
+node('corp-apis-dev-hlg') {
+    stage('teste') {
+        sh 'hostname'
     }
 }
