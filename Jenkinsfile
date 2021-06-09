@@ -1,7 +1,6 @@
 node {
     node(corp-apis-dev-hlg) {
-        stage("Deploy ${envKeyUpperCase}") {
-            checkout scm
+        stage("Deploy") {
             sh "hostname"
             cleanWs()
         }
