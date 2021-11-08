@@ -1,4 +1,4 @@
-node('corp-apis-dev-hlg') {
+node('eks-drools-dev-hml') {
     stage('teste') {
         sh 'hostname'
     }
