@@ -1,5 +1,5 @@
 node('cda-eks-prod') {
-    stage('teste') {
+    stage('master') {
         sh 'hostname'
     }
 }
