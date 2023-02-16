@@ -1,4 +1,4 @@
-node('cda-eks-prod') {
+node {
     stage('master') {
         sh 'hostname'
     }
